@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Metropolis; 
+}
+:root {
+  --primary-color: rgb(255, 255, 255);
+  --secondary-color: #c8c8c8;
+  --theme-color: #007f61;
+}
+#main {
+  max-width: 646px;
+  height: 748px;
+  margin: auto;
+  border: solid 3px;
+  padding-block: 50px;
+}
+#container {
+  margin: auto;
+/* border: solid red 3px; */
+  width: 21.29588rem;
+  height: fit-content;
+}
+#header{
+    position: relative;
+}
+.line {
+    display: block;
+  width: 100%;
+  height: 0.0565rem;
+  background-color: var(--secondary-color);
+  position: absolute;
+  z-index: -5;
+  bottom: 50%;
+  
+}
+h2 {
+  color: #007f61;
+  font-family: Metropolis;
+  font-size: 1.12975rem;
+  font-weight: 500;
+  width: fit-content;
+  margin: auto;
+  padding-inline: 10px;
+  background-color: var(--primary-color);
+
+}
+
+.offers{
+    border-radius: 3.615px;
+border: 0.904px solid #C8C8C8;
+background: #FFF;
+margin-top: 15px;
+}
+
+.radio_btn{
+    outline: var(--secondary-color);
+    accent-color: var(--theme-color);
+
+}
+.parent{
+    display: flex;
+    padding: 15px;
+}
+.subheader{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    padding-inline: 10px;
+}
+p{
+    margin-block: auto;
+}
+#price_section{
+display: flex;
+justify-content: space-between;
+margin-block: 15px;
+}
+.color_text{
+  color: var(--theme-color);
+  opacity: 0.6;
+}
+button{
+  border-radius: 4px 4px 4px 0px;
+background: #007F61;
+height: 48px; 
+width: 100%;
+border: none;
+color: #FFF;
+font-family: Inter;
+font-size: 16px;
+
+font-weight: 600; 
+}
