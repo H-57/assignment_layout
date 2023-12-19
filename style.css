@@ -3,6 +3,13 @@
   padding: 0;
   font-family: Metropolis; 
 }
+@font-face {
+  font-family: 'Metropolis';
+  font-style: normal;
+  font-display: auto;
+  font-weight: 400;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/metropolis@latest/latin-400-normal.ttf) format('truetype');
+}
 :root {
   --primary-color: rgb(255, 255, 255);
   --secondary-color: #c8c8c8;
