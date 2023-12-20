@@ -14,7 +14,7 @@ function handelClick(event) {
     }
 
     clickedElement.classList.add('selected');
-    // console.log(clickedElement.children[1].style.display="flex")
+    clickedElement.children[1].style.display="flex"
   }
 
 
